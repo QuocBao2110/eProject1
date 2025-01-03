@@ -550,7 +550,7 @@ function ProductCeiling({ data }) {
             </button>
             <div className="popup-image">
               {/* thay cái này với popup */}
-              <img src={`/images/products/${popupData.Images[0]}`} alt={popupData.Name} />
+              <img src={`./images/products/${popupData.Images[0]}`} alt={popupData.Name} />
             </div>
             <div className="popup-content">
               <h1><strong>{popupData.Brand}- {popupData.Name}</strong></h1>

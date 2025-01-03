@@ -525,7 +525,7 @@ function ProductExhaust({ data }) {
             filteredProducts.map((product, index) => (
               <div className="product-card" key={index}>
                 <div className="product-card-img-container">
-                  <img src={`/images/products/${product.Images[0]}`} className="product-card-img" alt="" />
+                  <img src={`./images/products/${product.Images[0]}`} className="product-card-img" alt="" />
                 </div>
                 <div className="product-card-name">
                   {product.Brand} - {product.Name}
