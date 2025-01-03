@@ -89,7 +89,7 @@ function App() {
     getGeolocation();
   }, []);
 
-  // Logic cho View Count
+  {/*
   const [viewCount, setViewCount] = useState(0);
 
   useEffect(() => {
@@ -99,6 +99,7 @@ function App() {
 
     return () => clearInterval(interval);
   }, []);
+  */}
 
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -158,9 +159,8 @@ function App() {
           </div>
         </ul>
         <div className="right-section">
-          {/* Hiển thị View Count */}
           <div className="visitor-count">
-          <i class="fa-solid fa-eye"></i> {viewCount}
+          <i class="fa-solid fa-eye"></i> {/*{viewCount}*/}15
           </div>
           <div className="logo" onClick={() => navigate("/")}>
             <img src="./images/logo.png" alt="Fanimation Logo" />

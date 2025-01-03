@@ -599,7 +599,7 @@ function ProductPedestal({ data }) {
               cartItems.map((item, index) => (
                 <div className="item" key={index}>
                   <div className="image">
-                    <img src={`/images/products/${item.Images[0]}`} alt={item.Name} />
+                    <img src={`./images/products/${item.Images[0]}`} alt={item.Name} />
                   </div>
                   <div className="name">{item.Name}</div>
                   <div className="price">${item.Price}</div>
