@@ -544,7 +544,7 @@ function Products({ data }) {
       <div className="product-card" key={index}>
         <div className="product-card-img-container">
           <img
-            src={`/images/products/${product.Images[0]}`}
+            src={`./images/products/${product.Images[0]}`}
             className="product-card-img"
             alt=""
           />
