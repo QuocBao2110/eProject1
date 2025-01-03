@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5e75b77.css",
+    "main.css": "/static/css/main.ebde0bfb.css",
     "main.js": "/static/js/main.3ad63153.js",
     "static/js/488.39e351b6.chunk.js": "/static/js/488.39e351b6.chunk.js",
-    "static/media/TriAire-Hero.png": "/static/media/TriAire-Hero.6580a2832152bc55be2c.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/mad8531-pd-hero.jpg": "/static/media/mad8531-pd-hero.94511ec35ca95dac0042.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -14,12 +13,12 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
-    "main.a5e75b77.css.map": "/static/css/main.a5e75b77.css.map",
+    "main.ebde0bfb.css.map": "/static/css/main.ebde0bfb.css.map",
     "main.3ad63153.js.map": "/static/js/main.3ad63153.js.map",
     "488.39e351b6.chunk.js.map": "/static/js/488.39e351b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5e75b77.css",
+    "static/css/main.ebde0bfb.css",
     "static/js/main.3ad63153.js"
   ]
 }
