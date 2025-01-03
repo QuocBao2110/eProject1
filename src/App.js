@@ -296,16 +296,16 @@ function App() {
           <p>© 2025 Fanimation. All rights reserved.</p>
           <div className="footer-icons">
             <Link to="/">
-              <img src="/images/icon-facebook.png" alt="Facebook" />
+              <img src="images/icon-facebook.png" alt="Facebook" />
             </Link>
             <Link to="/">
-              <img src="/images/icon-tiktok.png" alt="Tiktok" />
+              <img src="images/icon-tiktok.png" alt="Tiktok" />
             </Link>
             <Link to="/">
-              <img src="/images/icon-instagram.png" alt="Instagram" />
+              <img src="images/icon-instagram.png" alt="Instagram" />
             </Link>
             <Link to="/">
-              <img src="/images/icon-youtube.png" alt="YouTube" />
+              <img src="{`${process.env.PUBLIC_URL}${images/icon-youtube.png}`}" alt="YouTube" />
             </Link>
           </div>
         </div>
