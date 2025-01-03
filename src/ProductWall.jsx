@@ -278,7 +278,7 @@ function ProductWall({ data }) {
         <ul>
           <li id="filter-icon" onClick={toggleFilterBox}>
             <a href="#" >
-              <img src="/images/icon-filter.png" alt="Filter Icon" />
+              <img src="./images/icon-filter.png" alt="Filter Icon" />
             </a>
           </li>
           <li>
