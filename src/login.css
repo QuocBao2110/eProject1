@@ -5,7 +5,7 @@ body {
   }
 
    .sliding-background {
-    background-image: url("../public/images/TriAire-Hero.png");
+    /* background-image: url("../public/images/TriAire-Hero.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -135,7 +135,7 @@ body {
   }
 
   .SlidingBackground{
-    background-image: url("../public/images/TriAire-Hero.png");
+    /* background-image: url("../public/images/TriAire-Hero.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
