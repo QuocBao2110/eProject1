@@ -305,7 +305,7 @@ function App() {
               <img src="images/icon-instagram.png" alt="Instagram" />
             </Link>
             <Link to="/">
-              <img src="{`${process.env.PUBLIC_URL}${images/icon-youtube.png}`}" alt="YouTube" />
+              <img src="./images/icon-youtube.png" alt="YouTube" />
             </Link>
           </div>
         </div>
