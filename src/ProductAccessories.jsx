@@ -278,7 +278,7 @@ function ProductAccessories({ data }) {
         <ul>
           <li id="filter-icon" onClick={toggleFilterBox}>
             <a href="#" >
-              <img src="/images/icon-filter.png" alt="Filter Icon" />
+              <img src="./images/icon-filter.png" alt="Filter Icon" />
             </a>
           </li>
           <li>
@@ -550,7 +550,7 @@ function ProductAccessories({ data }) {
             </button>
             <div className="popup-image">
               {/* thay cái này với popup */}
-              <img src={`/images/products/${popupData.Images[0]}`} alt={popupData.Name} />
+              <img src={`./images/products/${popupData.Images[0]}`} alt={popupData.Name} />
             </div>
             <div className="popup-content">
               <h1><strong>{popupData.Brand}- {popupData.Name}</strong></h1>
