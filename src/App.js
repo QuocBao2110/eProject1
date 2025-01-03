@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Link, useNavigate } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
@@ -149,7 +149,7 @@ function App() {
           </li>
           <div className="search-container">
             <div className="input-wrapper">
-              <input type="text" id="inputField" placeholder=" " value={searchQuery} onChange={handleSearchChange}/>
+              <input type="text" id="inputField" placeholder=" " value={searchQuery} onChange={handleSearchChange} />
               <label for="inputField">Search</label>
             </div>
             <button className="search-button" onClick={handleSearchSubmit}>
@@ -160,7 +160,7 @@ function App() {
         <div className="right-section">
           {/* Hiển thị View Count */}
           <div className="visitor-count">
-          <i class="fa-solid fa-eye"></i> {viewCount}
+            <i class="fa-solid fa-eye"></i> {viewCount}
           </div>
           <div className="logo" onClick={() => navigate("/")}>
             <img src="/images/logo.png" alt="Fanimation Logo" />
@@ -207,20 +207,23 @@ function App() {
         </li>
       </div>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products data={product} />} />
-        <Route path="/products/ceiling" element={<ProductsCeiling data={productCeiling} />} />
-        <Route path="/products/pedestal" element={<ProductsPedestal data={productPedestal} />} />
-        <Route path="/products/wall" element={<ProductsWall data={productWall} />} />
-        <Route path="/products/exhaust" element={<ProductsExhaust data={productExhaust} />} />
-        <Route path="/products/accessories" element={<ProductsAccessories data={productAccessories} />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/faq" element={<FAQ />} />
-      </Routes>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products data={product} />} />
+          <Route path="/products/ceiling" element={<ProductsCeiling data={productCeiling} />} />
+          <Route path="/products/pedestal" element={<ProductsPedestal data={productPedestal} />} />
+          <Route path="/products/wall" element={<ProductsWall data={productWall} />} />
+          <Route path="/products/exhaust" element={<ProductsExhaust data={productExhaust} />} />
+          <Route path="/products/accessories" element={<ProductsAccessories data={productAccessories} />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+      </BrowserRouter>
+
       <footer>
         <div className="footer-top">
           <div className="footer-column">
