@@ -163,7 +163,7 @@ function App() {
           <i class="fa-solid fa-eye"></i> {viewCount}
           </div>
           <div className="logo" onClick={() => navigate("/")}>
-            <img src="/images/logo.png" alt="Fanimation Logo" />
+            <img src="./images/logo.png" alt="Fanimation Logo" />
           </div>
           <div className="auth-icons">
             <Link to="/login" className="auth-icon">
