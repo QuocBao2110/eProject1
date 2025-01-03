@@ -225,7 +225,7 @@ function App() {
         <div className="footer-top">
           <div className="footer-column">
             <img
-              src="/images/logo.png"
+              src="./images/logo.png"
               alt="Fanimation Logo"
               className="footer-logo"
             />
